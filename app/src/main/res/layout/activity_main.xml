@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fa8072"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile "
+        android:textStyle="bold"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="130dp"
+        android:src="@drawable/mel3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="45in"
+        android:layout_height="50in"
+        android:src="@drawable/pemanis2"
+        ></de.hdodenhof.circleimageview.CircleImageView>
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="130dp"
+        android:src="@drawable/avbfe351f753bcaa24ae2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:padding="16dp"
+        android:text="NIM : A11.2018.11322"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:padding="16dp"
+        android:text="NAMA : MEILISA AYEM MAGHENDRI"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvAlamat"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:padding="16dp"
+        android:text="ALAMAT : Dsn. Widuri, Ds. Cingkrong Rt. 003/007 Kec. Purwodadi, Kab. Grobogan (58151)"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/alamat"
+        android:layout_below="@id/tvNama"
+        android:layout_marginTop="14dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_map_24"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/tvAlamat"/>
+
+    <TextView
+        android:id="@+id/tvTelp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:padding="16dp"
+        android:text="NO.HP : 081328642624"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/telp"
+        android:layout_below="@id/tvAlamat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_local_phone_24"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/tvTelp"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="532dp"
+        android:padding="16dp"
+        android:text="E-MAIL : 111201811322@mhs.dinus.ac.id"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/email"
+        android:layout_below="@id/tvTelp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_email_24"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/tvEmail"/>
+
+        <Button
+            android:id="@+id/button_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#463333"
+            android:onClick="launchCurriculumVitae"
+            android:text="@string/button_main"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="80dp"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+
+</RelativeLayout>

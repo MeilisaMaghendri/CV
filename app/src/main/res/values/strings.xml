@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Relative Layout 2.3</string>
+    <string name="button_main">CurriculumVitae</string>
+
+    <string name="profile">Kehidupan adalah 10 persen apa yang terjadi pada Anda dan 90 persen adalah bagaimana Anda meresponnya,Satu-satunya sumber pengetahuan adalah pengalaman   </string>
+    <string name="education">
+        <p> 2018 - now     ( Universitas Dian Nuswantoro ) </p>\n\n
+        <p> 2015 - 2018    ( MAN 1 GROBOGAN ) </p>\n\n
+        <p> 2012 - 2015    ( SMP Negeri 5 Purwodadi ) </p>
+    </string>
+    <string name="experience">
+        <p> 1. Steering Committee Hi-techologi 2020 </p>\n\n
+        <p> 2. steering Committee ITC 2020 </p>\n\n
+    </string>
+    <string name="maps">
+        <p>Dusun : Widuri</p>\n
+        <p>Desa  : Cingkrong</p>\n
+        <p>Rt/Rw : 03 / 07 </p>\n
+        <p>Kec   : Kec. Purwodadi </p>\n
+        <p>kab   : Kab. Grobogan </p>
+
+    </string>
+    <string name="activity_name">CurriculumVitaeActivity2</string>
+</resources>
